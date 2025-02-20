@@ -7,6 +7,9 @@ export default async function DbTest() {
   return (
     <div>
       <h1>Users</h1>
+      <ol>
+        <li>One</li>
+      </ol>
       <ul>
         {rows.map((row) => (
           <li key={row.id}>{row.name}</li>
